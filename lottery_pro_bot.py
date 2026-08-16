@@ -25,9 +25,9 @@ from telegram.ext import Application, CommandHandler, CallbackQueryHandler, Cont
 from telegram.constants import ParseMode
 
 # ==================== CONFIG (from Environment Variables) ====================
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8707027344:AAFOGuDVUpKgGaCmOruhyh1Z5plgeclsa00")
-OWNER_ID = int(os.getenv("OWNER_ID", "7308292609"))
-OWNER_USERNAME = os.getenv("OWNER_USERNAME", "@kiki20251")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8743477803:AAEtP4puPpl8BxTNQVjJ456QkDjscbBieGs")
+OWNER_ID = int(os.getenv("OWNER_ID", "8877888465"))
+OWNER_USERNAME = os.getenv("OWNER_USERNAME", "@mynameis_Arven")
 ADMIN_IDS = [int(x.strip()) for x in os.getenv("ADMIN_IDS", str(OWNER_ID)).split(",") if x.strip()]
 
 if not BOT_TOKEN:
